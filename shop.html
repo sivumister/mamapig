@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description"
+      content="Mama Pig Zimbabwe provides quality pigs, pork products, breeding stock and pig farming training across Zimbabwe.">
+<title>Mama Pig | Shop</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
+ <div class="container">
+  <a class="navbar-brand fw-bold fs-4" href="Index.html">🐷 Mama Pig</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="nav"><ul class="navbar-nav ms-auto gap-lg-2"><li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li><li class="nav-item"><a class="nav-link active" href="shop.html">Shop</a></li><li class="nav-item"><a class="nav-link" href="Index.html#services">Services</a></li><li class="nav-item"><button class="btn btn-cart ms-lg-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartCanvas">🛒 Cart <span id="cartCount" class="badge rounded-pill">0</span></button></li></ul></div>
+ </div>
+</nav>
+<header class="section section-soft py-5"><div class="container text-center"><span class="text-uppercase fw-bold small" style="color:var(--gold)">Mama Pig Shop</span><h1 class="section-title display-5 mt-2">Fresh Pork & Quality Breeding Stock</h1><p class="lead mb-0">Choose from our available pork products and breeding stock.</p></div></header>
+
+<main class="section pt-5">
+<div class="container">
+<h2 class="section-title mb-4">Pork Prices</h2>
+<div class="row g-4">
+ <div class="col-sm-6 col-lg-4"><div class="card price-card"><div class="card-header">Whole Pork</div><div class="card-body"><h4>Full Porker</h4><p class="text-muted">Whole porker</p><div class="price">$3.80</div><button class="btn btn-gold w-100 mt-3 add-to-cart" data-name="Full Porker" data-price="3.80">Add to Cart</button></div></div></div>
+ <div class="col-sm-6 col-lg-4"><div class="card price-card"><div class="card-header">Pork Pack</div><div class="card-body"><h4>5kg Pack</h4><p class="text-muted">5kg pork pack</p><div class="price">$23.00</div><button class="btn btn-gold w-100 mt-3 add-to-cart" data-name="5kg Pork Pack" data-price="23.00">Add to Cart</button></div></div></div>
+ <div class="col-sm-6 col-lg-4"><div class="card price-card"><div class="card-header">Pork Ribs</div><div class="card-body"><h4>1kg Ribs</h4><p class="text-muted">Fresh pork ribs</p><div class="price">$8.00</div><button class="btn btn-gold w-100 mt-3 add-to-cart" data-name="1kg Pork Ribs" data-price="8.00">Add to Cart</button></div></div></div>
+ <div class="col-sm-6 col-lg-4"><div class="card price-card"><div class="card-header">Pork Trotters</div><div class="card-body"><h4>1kg Trotters</h4><p class="text-muted">Pork trotters</p><div class="price">$4.00</div><button class="btn btn-gold w-100 mt-3 add-to-cart" data-name="1kg Pork Trotters" data-price="4.00">Add to Cart</button></div></div></div>
+</div>
+
+<h2 class="section-title mt-5 mb-4">Breeding Stock</h2>
+<div class="row g-4">
+ <div class="col-sm-6 col-lg-4"><div class="card price-card"><div class="card-header">Weaners</div><div class="card-body"><h4>6 Weeks Weaners</h4><p class="text-muted">Young breeding/farming stock</p><div class="price">$50</div><button class="btn btn-gold w-100 mt-3 add-to-cart" data-name="6 Weeks Weaners" data-price="50">Add to Cart</button></div></div></div>
+ <div class="col-sm-6 col-lg-4"><div class="card price-card"><div class="card-header">Open Gilts</div><div class="card-body"><h4>Open Gilts</h4><p class="text-muted">Breeding stock</p><div class="price">$350</div><button class="btn btn-gold w-100 mt-3 add-to-cart" data-name="Open Gilts" data-price="350">Add to Cart</button></div></div></div>
+ <div class="col-sm-6 col-lg-4"><div class="card price-card"><div class="card-header">Served Gilts</div><div class="card-body"><h4>Served Gilts</h4><p class="text-muted">Breeding stock</p><div class="price">$450</div><button class="btn btn-gold w-100 mt-3 add-to-cart" data-name="Served Gilts" data-price="450">Add to Cart</button></div></div></div>
+</div>
+
+<div class="mt-5 p-4 rounded-4" style="background:var(--green-light)">
+    
+  <div class="row align-items-center g-3">
+    <div class="col-md-8">
+      <h3 class="section-title">Want to order?</h3>
+      <p class="mb-0">
+        Contact Mama Pig to confirm availability, arrange collection or discuss delivery.<br><br> 
+        <strong>Delivery Information</strong>
+        <br><br>
+        Orders for less than a full porker will be delivered on <strong>Tuesdays</strong><br>
+        Services are countrywide, while pork deliveries are limited to Juru, Goromonzi, Harare, Murewa and surrounding areas.</p>
+      </div><div class="col-md-4 text-md-end"><a href="Index.html#contact" class="btn btn-gold btn-lg">Contact Us</a></div></div>
+</div>
+</div>
+</main>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="cartCanvas" aria-labelledby="cartCanvasLabel">
+ <div class="offcanvas-header">
+  <h5 class="offcanvas-title" id="cartCanvasLabel">🛒 Your Mini Cart</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+ </div>
+ <div class="offcanvas-body d-flex flex-column">
+  <div id="cartItems" class="flex-grow-1">
+   <p class="text-muted text-center mt-4">Your cart is empty.</p>
+  </div>
+  <div class="border-top pt-3">
+   <div class="d-flex justify-content-between fw-bold mb-3">
+    <span>Total</span><span id="cartTotal">$0.00</span>
+   </div>
+   <div class="mb-2">
+    <input
+        type="text"
+        id="cartName"
+        class="form-control form-control-sm mb-2"
+        placeholder="Your Name"
+        required
+    >
+
+    <input
+        type="email"
+        id="cartEmail"
+        class="form-control form-control-sm mb-2"
+        placeholder="Your Email"
+        required
+    >
+
+    <input
+        type="tel"
+        id="cartPhone"
+        class="form-control form-control-sm"
+        placeholder="Your Phone Number"
+        required
+    >
+</div>
+   <button type="button" id="sendCartEmail" class="btn btn-gold w-100">📧 Email This Order</button>
+   <p id="cartSendStatus" class="small text-muted text-center mt-2 mb-0"></p>
+  </div>
+ </div>
+</div>
+
+<footer class="py-4"><div class="container d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026 Mama Pig</span><a href="Index.html">Back to Home</a></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+const cart = [];
+
+function updateCart() {
+  const items = document.getElementById("cartItems");
+  const count = document.getElementById("cartCount");
+  const totalEl = document.getElementById("cartTotal");
+
+  count.textContent = cart.reduce((sum, item) => sum + item.qty, 0);
+
+  if (cart.length === 0) {
+    items.innerHTML = '<p class="text-muted text-center mt-4">Your cart is empty.</p>';
+    totalEl.textContent = "$0.00";
+  } else {
+    let total = 0;
+
+    items.innerHTML = cart.map((item, index) => {
+      total += item.price * item.qty;
+
+      return `<div class="cart-item border-bottom pb-3 mb-3">
+        <div class="d-flex justify-content-between gap-2">
+          <div>
+            <strong>${item.name}</strong>
+            <div class="text-muted">$${item.price.toFixed(2)} each</div>
+          </div>
+          <button class="btn btn-sm btn-outline-danger remove-item" data-index="${index}">Remove</button>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 mt-2">
+          <button class="btn btn-sm btn-outline-secondary qty-btn" data-index="${index}" data-change="-1">−</button>
+          <span>${item.qty}</span>
+          <button class="btn btn-sm btn-outline-secondary qty-btn" data-index="${index}" data-change="1">+</button>
+          <strong class="ms-auto">$${(item.price * item.qty).toFixed(2)}</strong>
+        </div>
+      </div>`;
+    }).join("");
+
+    totalEl.textContent = "$" + total.toFixed(2);
+  }
+
+  updateProductButtons();
+}
+
+function updateProductButtons() {
+  document.querySelectorAll(".add-to-cart").forEach(button => {
+    const name = button.dataset.name;
+    const existing = cart.find(item => item.name === name);
+
+    if (existing) {
+      button.classList.add("d-none");
+
+      let actionBox = button.parentElement.querySelector(".cart-actions");
+
+      if (!actionBox) {
+        actionBox = document.createElement("div");
+        actionBox.className = "cart-actions d-flex gap-2 mt-3";
+
+        actionBox.innerHTML = `
+          <button type="button" class="btn btn-outline-success flex-fill view-cart">
+            🛒 View Cart
+          </button>
+          <button type="button" class="btn btn-gold flex-fill add-more">
+            ➕ Add More
+          </button>
+        `;
+
+        button.parentElement.appendChild(actionBox);
+
+        actionBox.querySelector(".view-cart").addEventListener("click", () => {
+          const cartCanvas = bootstrap.Offcanvas.getOrCreateInstance(
+            document.getElementById("cartCanvas")
+          );
+          cartCanvas.show();
+        });
+
+        actionBox.querySelector(".add-more").addEventListener("click", () => {
+          const product = cart.find(item => item.name === name);
+          if (product) {
+            product.qty++;
+            updateCart();
+          }
+        });
+      }
+    } else {
+      button.classList.remove("d-none");
+
+      const actionBox = button.parentElement.querySelector(".cart-actions");
+      if (actionBox) {
+        actionBox.remove();
+      }
+    }
+  });
+}
+
+document.querySelectorAll(".add-to-cart").forEach(button => {
+  button.addEventListener("click", () => {
+    const name = button.dataset.name;
+    const price = Number(button.dataset.price);
+    const existing = cart.find(item => item.name === name);
+
+    if (existing) {
+      existing.qty++;
+    } else {
+      cart.push({ name, price, qty: 1 });
+    }
+
+    updateCart();
+  });
+});
+
+document.addEventListener("click", event => {
+  if (event.target.classList.contains("remove-item")) {
+    cart.splice(Number(event.target.dataset.index), 1);
+    updateCart();
+  }
+
+  if (event.target.classList.contains("qty-btn")) {
+    const index = Number(event.target.dataset.index);
+    const change = Number(event.target.dataset.change);
+
+    cart[index].qty += change;
+
+    if (cart[index].qty <= 0) {
+      cart.splice(index, 1);
+    }
+
+    updateCart();
+  }
+});
+
+updateCart();
+
+
+const EMAILJS_PUBLIC_KEY = "JAZHXHVLSfXrzdupA";
+const EMAILJS_SERVICE_ID = "service_73xuj7g";
+const EMAILJS_TEMPLATE_ID = "template_g8posnx";
+
+emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+
+document.getElementById("sendCartEmail").addEventListener("click", function () {
+  const statusEl = document.getElementById("cartSendStatus");
+  const nameEl = document.getElementById("cartName");
+  const emailEl = document.getElementById("cartEmail");
+  const phoneEl = document.getElementById("cartPhone");
+
+  if (cart.length === 0) {
+    statusEl.textContent = "Your cart is empty — add something first.";
+    return;
+  }
+  if (!nameEl.value || !emailEl.value || !phoneEl.value) {
+    statusEl.textContent = "Please enter your name, email and phone number.";
+    return;
+}
+
+  const btn = this;
+  btn.disabled = true;
+  btn.textContent = "Sending...";
+  statusEl.textContent = "";
+
+  let total = 0;
+  const lines = cart.map(item => {
+    total += item.price * item.qty;
+    return `${item.qty} x ${item.name} @ $${item.price.toFixed(2)} = $${(item.price * item.qty).toFixed(2)}`;
+  });
+  const message = "Order:\n" + lines.join("\n") + `\n\nTotal: $${total.toFixed(2)}`;
+
+  emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+    from_name: nameEl.value,
+    from_email: emailEl.value,
+    phone: phoneEl.value,
+    message: message
+  }).then(function () {
+    btn.textContent = "Sent! ✅";
+    statusEl.textContent = "Your order has been emailed to us. We'll be in touch!";
+    setTimeout(() => { btn.disabled = false; btn.textContent = "📧 Email This Order"; }, 3000);
+  }).catch(function (error) {
+    console.error("EmailJS error:", error);
+    btn.disabled = false;
+    btn.textContent = "📧 Email This Order";
+    statusEl.textContent = "Something went wrong. Please try again.";
+  });
+});
+</script>
+
+</body>
+</html>

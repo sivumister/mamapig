@@ -1,0 +1,36 @@
+
+:root{
+  --green:#c0273c;
+  --green-dark:#7a0e28;
+  --green-light:#ffe6ec;
+  --gold:#ff3f6c;
+  --pink:#ff4f7b;
+  --pink-light:#fff0f5;
+  --cream:#fffaf0;
+  --text:#3a2027;
+}
+body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--text);background:#fff7fa;}
+.navbar{background:linear-gradient(90deg,#e91e63,#ff477e)!important;}
+.navbar-brand,.nav-link{color:#fff!important}.nav-link:hover{color:#fff!important;opacity:.8}
+.hero{background:linear-gradient(135deg,rgba(225,29,72,.88),rgba(255,79,123,.82)),url('pigs/pigs (1).jpg') center/cover;min-height:72vh;display:flex;align-items:center;color:#fff}
+.hero h1{font-size:clamp(2.7rem,6vw,5rem);font-weight:800}.hero p{font-size:1.15rem;max-width:650px}
+.btn-gold{background:var(--gold);border:0;color:#1e2b23;font-weight:700}.btn-gold:hover{background:#e3ba66;color:#16251d}
+.btn-outline-light{font-weight:600}
+.section{padding:80px 0}.section-soft{background:linear-gradient(135deg,#fff0f5,#ffe4ec)}
+.section-title{font-weight:800;color:var(--green-dark)}
+.feature-card,.service-card,.price-card{border:0;border-radius:18px;box-shadow:0 10px 30px rgba(23,59,43,.10);height:100%}
+.feature-icon{font-size:2rem;color:var(--gold)}
+.gallery-img{height:430px;object-fit:cover;border-radius:18px}
+.carousel-inner{border-radius:18px;overflow:hidden}
+.price-card{overflow:hidden}.price-card .card-header{background:var(--green);color:white;font-weight:700}
+.price{font-size:1.35rem;font-weight:800;color:var(--green-dark)}
+.badge-pig{background:var(--pink-light);color:var(--green-dark)}
+footer{background:var(--green-dark);color:#dce9e0}
+footer a{color:#fff;text-decoration:none}
+
+.btn-cart{background:#fff;color:#e91e63;font-weight:700;border:0;border-radius:10px;padding:.45rem .8rem;}
+.btn-cart:hover{background:#ffe4ec;color:#c2185b;}
+.btn-cart .badge{background:#e91e63;color:#fff;}
+.add-to-cart{border-radius:10px;}
+.offcanvas{background:#fffafd;}
+.cart-item{padding-bottom:.8rem;}
