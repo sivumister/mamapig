@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="style.css">
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <link rel="icon" href="mamapig.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
@@ -99,6 +100,65 @@
 </div>
 
 <footer class="py-4"><div class="container d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2026 Mama Pig</span><a href="Index.html">Back to Home</a></div></footer>
+<div class="contact-bubble-container">
+    <div class="contact-box" id="contactBox">
+        <div class="contact-header">
+            <div>
+                <h3>Get in Touch</h3>
+                <p>We'd love to hear from you!</p>
+            </div>
+            <button class="close-contact" onclick="toggleContactBox()">×</button>
+        </div>
+
+        <div class="contact-options">
+            <a href="mailto:mamapig053@gmail.com" class="contact-option email">
+                <span class="contact-icon">✉️</span>
+                <div>
+                    <strong>Email Us</strong>
+                    <small>mamapig053@gmail.com</small>
+                </div>
+            </a>
+
+            <a href="tel:+263773000078" class="contact-option phone">
+                <span class="contact-icon">📞</span>
+                <div>
+                    <strong>Call Us</strong>
+                    <small>+263 773 000 078</small>
+                </div>
+            </a>
+
+            <a href="https://wa.me/263773000078" class="contact-option whatsapp" target="_blank">
+                <span class="contact-icon">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </span>
+                <div>
+                    <strong>WhatsApp</strong>
+                    <small>Chat with us</small>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <button class="bubble-btn" id="bubbleBtn" onclick="toggleContactBox()" aria-label="Open contact options">
+        💬
+    </button>
+</div>
+<script>
+function toggleContactBox() {
+    const contactBox = document.getElementById("contactBox");
+    const bubbleBtn = document.getElementById("bubbleBtn");
+
+    contactBox.classList.toggle("active");
+
+    if (contactBox.classList.contains("active")) {
+        bubbleBtn.innerHTML = "✕";
+        bubbleBtn.setAttribute("aria-label", "Close contact options");
+    } else {
+        bubbleBtn.innerHTML = "💬";
+        bubbleBtn.setAttribute("aria-label", "Open contact options");
+    }
+}
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 <script>
